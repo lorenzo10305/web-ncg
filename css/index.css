@@ -1,0 +1,131 @@
+*{
+    margin: 0;
+    padding: 0;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+
+}
+
+body {
+    background-color: rgb(238, 238, 238);
+}
+
+/*header*/
+header {
+    display: flex;
+    background-color: rgb(5, 4, 49);
+    width: 100%;
+    height: auto;
+    padding: 20px;
+    text-align: center;
+    overflow: hidden;
+    color: rgb(255, 255, 255);      
+    justify-content: center;
+}
+
+/*nav*/
+.navigation {
+    display: flex;
+    text-align: center;
+    align-items: center;
+    background-color: rgb(2, 153, 14); 
+    overflow: hidden;
+    justify-content: center;
+
+
+}
+
+ul li {
+    display: inline-flex;
+    padding: 4px;
+    margin: 0%25px;
+    color: rgb(255, 255, 255);
+    font-style: none;
+    
+
+}
+.navigation a {
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    font-weight: bold;
+}
+
+/*section slider*/
+.section-content {
+    display: flex;
+    background-color: rgb(2, 2, 58);
+    text-align: center;
+    justify-content: center;
+    width: auto;
+    height: 300px;
+    margin: 20px;
+    margin-top: 60px;
+    overflow: hidden;
+}
+
+
+
+.slider-box {
+    width: 1280px;
+    height: auto;
+    margin: 50px auto 0;
+    overflow: hidden;
+    }
+
+
+.slider-box ul {
+    display: flex;
+    padding: 0;
+    width: 400%;
+    animation: slider 20s infinite alternate ease-in-out;
+}
+    
+.slider-box li {
+    width: 100%;
+    list-style: none;
+}
+
+.slider-box img {
+    width: 100%;
+}
+
+
+@keyframes slider {
+    0% {margin-left: 0;}
+    20% {margin-left: 0;}
+
+    25% {margin-left: -100;}
+    45% {margin-left: -100;}
+
+    50% {margin-left: -200;}
+    70% {margin-left: -200;}
+
+    75% {margin-left: -300;}
+    100% {margin-left: -300;}
+}
+
+/*video*/
+
+.section-video {
+
+    display: flex;
+    flex-wrap: wrap;
+    margin: 35px;
+    background-color: rgb(238, 238, 238);
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    padding: 50px;
+    width: 100%;
+    height: auto;
+    overflow: hidden;
+
+}
+
+.video-inicio1 {
+width: 25px;
+height: auto;
+border-radius: 20px;
+}
