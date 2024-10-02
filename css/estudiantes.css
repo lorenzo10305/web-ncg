@@ -70,9 +70,9 @@ ul li {
 }
 
 .form-register h1 {
+    text-align: center;
     font-size: 22px;
     margin-bottom: 20px;
-    
 }
 
 .controls {
@@ -97,3 +97,36 @@ ul li {
     font-size: 16px;
 
 }
+
+#remind {
+    appearance: none;
+    width: 10px;
+    height: 10px;
+    border: 1px solid #ccc;
+    background-color: #fff;
+    cursor: pointer;
+  }
+
+  #remind:checked {
+    background-color: #66bb6a;
+    border: 3px solid #0fe71a;
+  }
+
+  label {
+    margin-bottom: 20px;
+    font-family: 'calibri';
+    font-size: 18px;
+    margin-left: 10px;
+    font-weight: bold;
+  }
+
+  #remind:checked + label {
+    color: #1fe21f;
+  }
+
+  .form-register a {
+    font-family: 'calibri';
+    font-size: 18px;
+    font-weight: bold;
+    color: #d1e703;
+  }
