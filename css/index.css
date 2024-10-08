@@ -38,7 +38,7 @@ header {
 
 ul li {
     display: inline-flex;
-    padding: 4px;
+    padding: 10px 4px;
     margin: 0%25px;
     color: rgb(255, 255, 255);
     font-style: none;
@@ -49,6 +49,12 @@ ul li {
     color: rgb(255, 255, 255);
     text-decoration: none;
     font-weight: bold;
+    padding: 4px;
+    padding-left: 6px;
+    padding-right: 6px;
+}
+.navigation a:hover{
+    background-color:  rgb(5, 4, 49);
 }
 
 /*section slider*/
@@ -110,22 +116,115 @@ ul li {
 .section-video {
 
     display: flex;
-    flex-wrap: wrap;
-    margin: 35px;
-    background-color: rgb(238, 238, 238);
-    text-align: center;
-    justify-content: center;
-    align-items: center;
-    gap: 20px;
-    padding: 50px;
-    width: 100%;
-    height: auto;
-    overflow: hidden;
-
+    margin-top: 100px;
+    background-image: url(https://www.freepik.es/vector-gratis/tema-dibujado-mano-patron-regreso-escuela_9168746.htm#query=fondos%20escolares&position=0&from_view=keyword&track=ais_hybrid&uuid=f8783d31-a13c-4101-8df7-5de41aeaf4d2);  
 }
 
 .video-inicio1 {
-width: 25px;
-height: auto;
+margin: 40px;
 border-radius: 20px;
+}
+.video-inicio2 {
+ margin: 40px;
+ border-radius: 20px;
+ }
+ .video-inicio1 p {
+    font-family: "calibri";
+    color: rgb(31, 163, 5);
+    font-size: 18px;
+    font-weight: bold;
+    
+ }
+ .video-inicio2 p {
+    font-family: "calibri";
+    color: rgb(31, 163, 5);
+    font-size: 30pxpx;
+    font-weight: bold;
+    
+ }
+    
+
+/*proyectos y circulares*/
+
+.info {
+    display: flex;
+    margin: 100px;
+    padding: 20px;
+    font-family: "calibri";
+    color: rgb(255, 255, 255);
+    font-size: 18px;
+}
+.info h1{
+    font-size: 10px;
+}
+
+.circulares{
+    background-color: rgb(125, 3, 240);
+    width: 300px;
+    height: auto;
+    padding: 10px;
+    margin: 10px;
+}
+
+.proyectos{
+    background-color: rgb(240, 216, 3);
+    width: 300px;
+    height: auto;
+    padding: 10px;
+    margin: 10px;
+}
+
+.cronograma{
+    background-color: rgb(240, 11, 3);
+    width: 300px;
+    height: auto;
+    padding: 19px;
+    margin: 10px;
+}
+
+.certificados {
+    background-color: rgb(31, 240, 3);
+    width: 300px;
+    height: auto;
+    padding: 10px;
+    margin: 10px;  
+}
+
+.button-circulars {
+    width: 100%;
+    background-color: rgb(194, 194, 202);
+    border: none;
+    padding: 12px;
+    color: white;
+    margin: 16px 0;
+    font-size: 16px;
+
+}
+.button-project {
+    width: 100%;
+    background-color: rgb(194, 194, 202);
+    border: none;
+    padding: 12px;
+    color: white;
+    margin: 16px 0;
+    font-size: 16px;
+}
+.button-schedule {
+    width: 100%;
+    background-color: rgb(194, 194, 202);
+    border: none;
+    padding: 12px;
+    color: white;
+    margin: 16px 0;
+    font-size: 16px;
+}
+
+.button-certificates {
+    width: 100%;
+    background-color: rgb(194, 194, 202);
+    border: none;
+    padding: 12px;
+    color: white;
+    margin: 16px 0;
+    font-size: 16px;
 }
