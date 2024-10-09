@@ -8,7 +8,11 @@
 }
 
 body {
-    background-color: rgb(238, 238, 238);
+    background-image: url(body.png);
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    
 }
 
 /*header*/
@@ -77,6 +81,7 @@ ul li {
     height: auto;
     margin: 50px auto 0;
     overflow: hidden;
+    
     }
 
 
@@ -116,23 +121,40 @@ ul li {
 .section-video {
 
     display: flex;
+    flex-wrap: wrap;
     margin-top: 100px;
-    background-image: url(https://www.freepik.es/vector-gratis/tema-dibujado-mano-patron-regreso-escuela_9168746.htm#query=fondos%20escolares&position=0&from_view=keyword&track=ais_hybrid&uuid=f8783d31-a13c-4101-8df7-5de41aeaf4d2);  
+    background-color: rgba(135, 159, 184, 0.5);
 }
 
 .video-inicio1 {
-margin: 40px;
-border-radius: 20px;
+    background-color: #302f2f;
+    margin: 40px;
+    border-radius: 20px;
+    margin: 40px;
+    width: 40%;
+
 }
+
+.video-1{
+    margin: 20px;
+ }
+
 .video-inicio2 {
- margin: 40px;
+ background-color: #302f2f;
  border-radius: 20px;
+ width: 40%;
+ margin: 40px;
+
+ }
+ .video-2{
+    margin: 20px;
  }
  .video-inicio1 p {
     font-family: "calibri";
     color: rgb(31, 163, 5);
     font-size: 18px;
     font-weight: bold;
+    margin: 20px;
     
  }
  .video-inicio2 p {
@@ -140,6 +162,7 @@ border-radius: 20px;
     color: rgb(31, 163, 5);
     font-size: 30pxpx;
     font-weight: bold;
+    margin: 20px;
     
  }
     
@@ -148,19 +171,20 @@ border-radius: 20px;
 
 .info {
     display: flex;
+    flex-wrap: wrap;
     margin: 100px;
     padding: 20px;
     font-family: "calibri";
     color: rgb(255, 255, 255);
     font-size: 18px;
 }
-.info h1{
-    font-size: 10px;
-}
+
 
 .circulares{
     background-color: rgb(125, 3, 240);
-    width: 300px;
+    border-radius: 20px;
+    border: 4px solid rgb(17, 2, 58);
+    width: 250px;
     height: auto;
     padding: 10px;
     margin: 10px;
@@ -168,31 +192,38 @@ border-radius: 20px;
 
 .proyectos{
     background-color: rgb(240, 216, 3);
-    width: 300px;
+    width: 250px;
     height: auto;
     padding: 10px;
     margin: 10px;
+    border-radius: 20px;
+    border: 4px solid rgb(17, 2, 58);
+    
 }
 
 .cronograma{
     background-color: rgb(240, 11, 3);
-    width: 300px;
+    width: 250px;
     height: auto;
     padding: 19px;
     margin: 10px;
+    border-radius: 20px;
+    border: 4px solid rgb(17, 2, 58);
 }
 
 .certificados {
     background-color: rgb(31, 240, 3);
-    width: 300px;
+    width: 250px;
     height: auto;
     padding: 10px;
     margin: 10px;  
+    border-radius: 20px;
+    border: 4px solid rgb(17, 2, 58);
 }
 
 .button-circulars {
     width: 100%;
-    background-color: rgb(194, 194, 202);
+    background-color: rgb(125, 3, 240);
     border: none;
     padding: 12px;
     color: white;
@@ -202,7 +233,7 @@ border-radius: 20px;
 }
 .button-project {
     width: 100%;
-    background-color: rgb(194, 194, 202);
+    background-color: rgb(240, 216, 3);
     border: none;
     padding: 12px;
     color: white;
@@ -211,7 +242,7 @@ border-radius: 20px;
 }
 .button-schedule {
     width: 100%;
-    background-color: rgb(194, 194, 202);
+    background-color: rgb(240, 11, 3);
     border: none;
     padding: 12px;
     color: white;
@@ -221,10 +252,55 @@ border-radius: 20px;
 
 .button-certificates {
     width: 100%;
-    background-color: rgb(194, 194, 202);
+    background-color:  rgb(31, 240, 3);
     border: none;
     padding: 12px;
     color: white;
     margin: 16px 0;
     font-size: 16px;
 }
+.info a {
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    background-color: rgba(194, 194, 202);
+    border-radius: 8px;
+    border: 2px solid #302f2f;
+    padding: 12px;
+    color: rgb(0, 0, 0);
+    margin: 16px 0;
+    font-size: 16px;
+    font-weight: bold;
+    box-shadow: 10px 0px 80px rgba(252, 250, 250, 0.8);
+}
+
+.info a:hover {
+    background-color:  rgb(218, 218, 224);
+    
+}
+
+/*footer*/
+
+.footer {
+    display: flex ;
+    flex-wrap: wrap;
+    background-color: rgba(87, 87, 87);
+    width: 100%;
+    height: auto;
+    margin: 0px;
+    padding: 20px;
+    font-family: "calibri";
+    color:rgb(250, 250, 250);
+    position: absolute;
+}
+
+.ubication {
+    background-color: black;
+    width: 500px;
+    height: 500px;
+    display: flex;
+    }
+
+    .maps {
+        justify-content: center;
+    }
