@@ -174,7 +174,7 @@ ul li {
 }
 
 .proyectos{
-    background-color: rgb(240, 216, 3);
+    background-color: rgb(211, 158, 44);
     width: 250px;
     height: auto;
     padding: 10px;
@@ -216,7 +216,7 @@ ul li {
 }
 .button-project {
     width: 100%;
-    background-color: rgb(240, 216, 3);
+    background-color:  rgb(211, 158, 44);
     border: none;
     padding: 12px;
     color: white;
