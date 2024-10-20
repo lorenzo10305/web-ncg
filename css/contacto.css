@@ -63,83 +63,63 @@ ul li {
   background-color:  rgb(5, 4, 49);
 }
 
-/*login*/
-.form-register {
-    width: 400px;
-    background-color: rgba(0, 0, 128, 0.5);
-    padding: 30px;
-    margin: auto;
-    margin-top: 100px;
-    border-radius: 4px;
-    font-family: 'calibri';
-    color: white;
-    box-shadow: 10px 0px 80px rgba(0, 128, 0, 0.5);
+.containerMenuDos{
+  display: flex;
+  
+  background-color: #333;
+  margin: 100px;
+  padding: 20px;
 }
-
-.form-register h1 {
-    text-align: center;
-    font-size: 22px;
-    margin-bottom: 20px;
-}
-
-.controls {
-    width: 100%;
-    background-color: rgba(0, 0, 0, 0.5);
-    padding: 10px;
-    border-radius: 4px;
-    margin-bottom: 16px;
-    border: 1px solid rgb(132, 207, 132);
-    font-family: 'calibri';
-    font-size: 18px;
-    color: white;
-}
-
-.form-register button {
-    width: 100%;
-    background-color: rgb(16, 17, 41);
-    border: none;
-    padding: 12px;
-    color: white;
-    margin: 16px 0;
-    font-size: 16px;
+#circulares{
+  flex-wrap: wrap;
+  background-color: aqua;
+  color: aliceblue;
+  font-size: larger;
+  padding: 20px;
+  height: 350px;
 
 }
+#proyectos{
+  flex-wrap: wrap;
+  background-color: aqua;
+  color: aliceblue;
+  font-size: larger;
+  padding: 20px;
+  height: 350px;
+  margin-left: 20px;
+}
 
-#remind {
-    appearance: none;
-    width: 10px;
-    height: 10px;
-    border: 1px solid #ccc;
-    background-color: #fff;
-    cursor: pointer;
+#cronograma{
+  flex-wrap: wrap;
+  background-color: aqua;
+  color: aliceblue;
+  font-size: larger;
+  padding: 20px;
+  height: 350px;
+  margin-left: 20px;
+}
+
+#certificados{
+  flex-wrap: wrap;
+  background-color: aqua;
+  color: aliceblue;
+  font-size: larger;
+  padding: 20px;
+  height: 350px;
+  margin-left: 20px;
   }
 
-  #remind:checked {
-    background-color: #66bb6a;
-    border: 3px solid #0fe71a;
-  }
+#cafeteria{
+  flex-wrap: wrap;
+  background-color: aqua;
+  color: aliceblue;
+  font-size: larger;
+  padding: 20px;
+  height: 350px;
+  margin-left: 20px;
+}
 
-  label {
-    margin-bottom: 20px;
-    font-family: 'calibri';
-    font-size: 18px;
-    margin-left: 10px;
-    font-weight: bold;
-  }
-
-  #remind:checked + label {
-    color: #1fe21f;
-  }
-
-  .form-register a {
-    font-family: 'calibri';
-    font-size: 18px;
-    font-weight: bold;
-    color: #d1e703;
-  }
-
-
- /*footer*/
+/*footer*/
 
 .footer {
   display: flex;
