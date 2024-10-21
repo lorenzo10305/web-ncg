@@ -1,0 +1,167 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "calibri";
+}
+
+
+/*header*/
+
+.header-content h1{
+    font-family: Times New Roman;
+    }
+    header {
+        position: relative;
+        padding: 0;
+        display: flex;
+        background-color: rgb(5, 4, 49);
+        width: 100%;
+        height: 200px;
+        padding: 20px;
+        text-align: center;
+        overflow: hidden;
+        color: rgb(255, 255, 255);      
+        justify-content: center;
+        
+    }
+    
+    header h1{
+        position: absolute;
+        top: 130px;
+        right: 33%;
+        font-family: 'Times New Roman', Times, serif;
+    }
+    header img{
+        position: absolute;
+    }
+    
+    /*nav*/
+    .navigation {
+        display: flex;
+        text-align: center;
+        align-items: center;
+        background-color: rgb(2, 153, 14); 
+        overflow: hidden;
+        justify-content: center;
+    
+    
+    }
+    
+    ul li {
+        display: inline-flex;
+        padding: 10px 4px;
+        margin: 0%25px;
+        color: rgb(255, 255, 255);
+        font-style: none;
+        
+    
+    }
+    .navigation a {
+        color: rgb(255, 255, 255);
+        text-decoration: none;
+        font-weight: bold;
+        font-size: 20px;
+        padding: 4px;
+        padding-left: 6px;
+        padding-right: 6px;
+        font-family: 'Times New Roman', Times, serif;
+    }
+    .navigation a:hover{
+        background-color:  rgb(5, 4, 49);
+    }
+      
+.registrationContainer {
+    
+    background-color: rgb(68, 68, 68);
+    width: 500px;
+    margin-top: 5px;
+    margin-bottom: 30px;
+    position: absolute;
+    top: 400px;
+    left: 35%;
+    padding: 30px;
+}
+
+.tablaDeDatos{
+margin: 50px;
+}
+input{
+    margin: 3px;
+    border: 2px solid ;
+    width: 100%;
+    font-size: larger;
+
+}
+
+label{
+    
+    color: white;
+    font-weight: bold;
+    text-align: center;
+    font-size: larger;
+       
+}
+
+.buttonform{
+    font-size: 20px;
+    margin-top: 20px;
+    width: 100%;
+    font-size: larger;
+    border-radius: 8px;
+    border: 2px solid black;
+    font-weight: bold;
+}
+
+/*footer*/
+
+footer {
+    margin-top: 50%;
+    display: flex;
+    flex-wrap: wrap;
+    background-color: #333;
+    color: #fff;
+    font-size: 18px;
+    padding: 20px;
+    text-align: center;
+    bottom: 0;
+    width: 100%;
+    height: 180px;
+  }
+  
+  .footer-contenido {
+    float: left;
+    margin-left: 20px;
+  }
+  
+  .footer-contenido p {
+    font-size: 20px;
+    margin-top: 30px;
+    margin-bottom: 50%px;
+    
+  }
+  #redes{
+    font-size: 30px;
+    font-weight: bold;
+  }
+  .footer-derechos {
+    float: right;
+    margin-right: 20px;
+    font-size: 20px;
+    
+  }
+  
+ #menuRedes{
+    background-color: rgba(255, 255, 255, 0.0);
+    border-radius: 20px;
+ }
+
+.iconsRedes{
+    margin: auto;
+    display: block;
+}
+#icons {
+    margin: auto;
+}
+
+

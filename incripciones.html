@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario de Inscripcion</title>
+    <link rel="stylesheet" href="css/inscripcionStyle.css">
+
+</head>
+<body>
+
+    <header>
+        <section class="header-content">
+            <img src="img/escudo.png" alt="escudo" width="90px">
+            <h1>Colegio Nueva Colombia Grande</h1>
+        </section>
+    </header>
+
+
+    <nav class="navigation">
+        <ul class="menu">
+
+            <li><a href="index.html">Inicio</a></li>
+            <li><a href="quienessomos.html">Quienes Somos</a></li>
+            <li><a href="estudiantes.html">Estudiantes</a></li>
+            <li><a href="docentes.html">Docentes</a></li>
+            <li><a href="contacto.html">Contactanos</a></li>
+        </ul>
+    </nav>
+
+    <table class="tablaDeDatos" border="3">
+        
+        <thead>
+            <tr>
+                <th scope="col">Nombre del Acudiete</th>
+                <th scope="col">Direccion</th>
+                <th scope="col">Teléfono</th>
+                <th scope="col">Correo Electronico</th>
+                <th scope="col">Nombre del Estudiante</th>
+                <th scope="col">Edad del Estudiante</th>
+                <th scope="col">Ultimo Grado Cursado </th>
+                <th scope="col">Nombre del Ultimo Colegio en el que Estudio</th>
+                <th scope="col">Grado al que Ingresa</th>
+        
+
+            </tr>
+        </thead>
+        <tbody id="capturDato">
+            <tr>
+                <td scope="row"></td>
+                <td scope="row"></td>
+                <td scope="row"></td>
+                <td scope="row"></td>
+                <td scope="row"></td>
+                <td scope="row"></td>
+                <td scope="row"></td>
+                <td scope="row"></td>
+                <td scope="row"></td>
+            </tr>
+           
+        </tbody>
+        
+    </table>
+
+    <div class="registrationContainer">
+
+        <label for="acudiente">Nombre del Acudiete</label>
+        <input type="text" id="attendant" placeholder="Nombre y Apellidos" name="acudiente" required>
+
+        <label for="direccion">Dirección</label>
+        <input type="text" id="direcction" placeholder="Direccion de Residencia" name="direccion" required />
+
+        <label for="telefono">Teléfono</label>
+        <input type="number" id="phone" placeholder="Teléfono del Acudiente" name="telefono" required />
+
+        <label for="mail">Correo Electronico</label>
+        <input type="email" id="email" placeholder="Correo Electronico de Acudiente" name="mail" required />
+
+        <label for="nombreDeEstudiante">Nombre del Estudiante</label>
+        <input type="text" id="nameStudent" placeholder="nombre Completo del Estudiante" name="nombreDeEstudiante" required />
+
+        <label for="edadE">Edad del estudiante</label>
+        <input type="text" id="age" placeholder="Edad del Estudiante" name="edadE" required />
+        
+        <label for="ultimoCursado">Ultimo Grado Cursado</label>
+        <input type="number" id="lastCourse" placeholder="Ultimo Grado Cursado" name="ultimoCursado" required />
+
+        <label for="ultimoColegio">Ultimo Colegio en el que Estudio</label>
+        <input type="text" id="lastSchool" placeholder="Ultimo Colegio en el que Estudio" name="ultimoColegio" required />
+
+        <label for="gradoIngreso">Grado al que Ingresa</label>
+        <input type="text" id="gradeToEnter" placeholder="Grado al que Ingresa" name="gradoIngreso" required />
+
+        <button class="buttonForm" type="submit" onclick="enviarSolicitud()">Enviar Solicitud</button>
+    </div>
+
+    <!--footer-->
+
+    <footer class="footer">
+        <div class="footer-contenido">
+          <p>Dirección:<br> 81 # 73 F - 54 SUR BOSA </p>
+          <p>Teléfono:7760939</p>
+        </div>
+        <div class="iconsRedes">
+            <p id="redes">Síguenos en:</p>
+            <button id="menuRedes"><img id="icons" src="img/icons8-facebook-100.png" alt=""><a href="https://www.facebook.com/p/COLEGIO-NUEVA-COLOMBIA-GRANDE-100068294022764/?locale=es_LA" target="_blank"></a></button>
+            <button id="menuRedes"><img id="icons" src="img/icons8-instagram-100.png" alt=""><a href="(link unavailable)" target="_blank"></a></button>
+            <button id="menuRedes"><img id="icons"src="img/icons8-youtube-100.png" alt=""><a href="(link unavailable)" target="_blank"></a></button>
+            <button id="menuRedes"><img id="icons" src="img/icons8-whatsapp-100.png" alt=""><a href="(link unavailable)" target="_blank"></a></button>
+        </div>
+        <div class="footer-derechos">
+          <p>&copy; 2024 Todos los derechos reservados</p>
+        </div>
+      </footer>
+    
+    <script src="inscripciones.js"></script>
+</body>
+</html>
