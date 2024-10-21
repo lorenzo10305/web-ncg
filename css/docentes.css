@@ -54,7 +54,7 @@ ul li {
   color: rgb(255, 255, 255);
   text-decoration: none;
   font-weight: bold;
-  font-size: 24px;
+  font-size: 20px;
   padding: 4px;
   padding-left: 6px;
   padding-right: 6px;
@@ -139,6 +139,7 @@ ul li {
   color: #fff;
   font-size: 18px;
   padding: 20px;
+  margin-top: 100px;
   text-align: center;
   bottom: 0;
   width: 100%;
