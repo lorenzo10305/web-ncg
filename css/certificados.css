@@ -1,0 +1,166 @@
+*{
+    margin: 0;
+    padding: 0;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+
+}
+
+body {
+    background-image: url(body.png);
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    
+}
+
+/*header*/
+header {
+    display: flex;
+    background-color: rgb(5, 4, 49);
+    width: 100%;
+    height: auto;
+    padding: 20px;
+    text-align: center;
+    overflow: hidden;
+    color: rgb(255, 255, 255);      
+    justify-content: center;
+}
+
+/*nav*/
+.navigation {
+    display: flex;
+    text-align: center;
+    align-items: center;
+    background-color: rgb(2, 153, 14); 
+    overflow: hidden;
+    justify-content: center;
+
+
+}
+
+ul li {
+    display: inline-flex;
+    padding: 10px 4px;
+    margin: 0%25px;
+    color: rgb(255, 255, 255);
+    font-style: none;
+    
+
+}
+.navigation a {
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 20px;
+    padding: 4px;
+    padding-left: 6px;
+    padding-right: 6px;
+}
+.navigation a:hover{
+    background-color:  rgb(5, 4, 49);
+}
+
+
+  
+  .container {
+    width: 600px;
+    margin: 50px auto;
+    padding: 20px;
+    background-color: rgba(26, 19, 19, 0.548);
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    font-family: "calibri";
+    font-size: medium;
+  }
+  h1{
+    font-size: 50px;
+    margin: 10px;
+  }
+  
+  .campo {
+    margin-bottom: 20px;
+  }
+  
+  label {
+    display: block;
+    margin-bottom: 10px;
+    font-size: 20px;
+    color: #02022b;
+    font-weight: bold;
+  }
+  
+  input[type="text"], input[type="email"], input[type="tel"] {
+    width: 100%;
+    height: 40px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  button {
+    width: 100%;
+    height: 40px;
+    background-color: #4CAF50;
+    color: #fff;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  button:hover {
+    background-color: #3e8e41;
+  }
+  
+  /*footer*/
+
+.footer {
+    display: flex;
+    flex-wrap: wrap;
+    background-color: #333;
+    color: #fff;
+    font-size: 18px;
+    padding: 20px;
+    text-align: center;
+    bottom: 0;
+    width: 100%;
+    height: 180px;
+  }
+  
+  .footer-contenido {
+    float: left;
+    margin-left: 20px;
+  }
+  
+  .footer-contenido p {
+    font-size: 20px;
+    margin-top: 30px;
+    margin-bottom: 50%px;
+    
+  }
+  #redes{
+    font-size: 30px;
+    font-weight: bold;
+  }
+  .footer-derechos {
+    float: right;
+    margin-right: 20px;
+    font-size: 20px;
+    
+  }
+  
+ .iconsRedes a{
+    background-color: rgba(255, 255, 255, 0.0);
+    border-radius: 20px;
+ }
+
+.iconsRedes{
+    margin: auto;
+    display: block;
+}
+#icons {
+    margin: auto;
+}

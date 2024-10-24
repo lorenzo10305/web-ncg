@@ -325,20 +325,44 @@ ul li {
 /* formulario de inscripcion */
 
 .inscripciones{
-    background-color: rgba(225, 225, 225, 0.0);
-    width: 100%;
-    height: 400px;
+    margin-top: 100px;
+    position: relative;
+    display: flex;
+    flex-wrap: wrap;
+    background-color: rgba(15, 14, 14, 0.5);
+    width: 45%;
+    height: 370px;
     justify-content: center;
-}
-.inscripciones video{
- margin-left: 27%;
 }
 
 .irFormulario{
-    margin: 40px;
-    margin-top: 50px;
+    margin-top: 100px;
+    position: absolute;
+    bottom: 0%;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 200px;
+   height: 50px;
+     border: none;
+   border-radius: 5px;
+   cursor: pointer;
+   text-align: center;
 
 }
+
+.boton a{
+    margin-bottom: 10px;
+    display: inline-block;
+    color: white;
+    width: 100%;
+    height: 80%;
+    padding: 10px;
+    padding-top: 20px;
+    background-color: rgba(15, 14, 14, 0.5);
+    text-decoration: none;
+    font-size: 23px;
+}
+
 
 /*footer*/
 
@@ -377,7 +401,7 @@ ul li {
     
   }
   
- #menuRedes{
+ .iconsRedes a{
     background-color: rgba(255, 255, 255, 0.0);
     border-radius: 20px;
  }
