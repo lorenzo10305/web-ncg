@@ -91,15 +91,35 @@ ul li {
 }
 
 .form-register button {
-    width: 100%;
-    background-color: rgb(16, 17, 41);
-    border: none;
-    padding: 12px;
-    color: white;
-    margin: 16px 0;
-    font-size: 16px;
-
+  width: 100%;
+  color: #fff;
+  margin-top: 20px;
+background-color: #02013b;
+border: 1px solid #000;
+border-radius: 5px;
+font-size: 16px;
+font-weight: bold;
+padding: 10px 20px;
+cursor: pointer;
+transition: all 0.5s ease-in-out;
 }
+
+.form-register button:hover {
+  background-color: #0c0572;
+}
+
+.form-register button:focus{
+  outline: none;
+}
+
+.form-register button:active{
+  transform: scale(0.9);
+}
+
+.form-register button:disabled {
+  opacity: 0.5;
+}
+
 
 #remind {
     appearance: none;

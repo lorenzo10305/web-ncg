@@ -9,7 +9,7 @@ function enviarSolicitud(){
     let ultimoColegio = document.getElementById("lastSchool").value;
     let gradoIngreso = document.getElementById("gradeToEnter").value;
     let nombreDelEstudiante = document.getElementById("nameStudent").value;
-    alert(edadE);
+    
   if (acudiente == "" || direccion == "" || telefono == "" || mail == "" || nombreDelEstudiante == "" || edadE == "" || ultimoCursado == "" || ultimoColegio == "" || gradoIngreso == "")  
     {alert("formulario incompleto, por favor diligenciarlo en su totalidad")}
   else {}

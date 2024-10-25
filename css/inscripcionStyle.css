@@ -72,11 +72,12 @@
     }
       
 .registrationContainer {
-    
-    background-color: rgb(68, 68, 68);
+    border-radius: 15px;
+    background-color: rgba(68, 68, 68, 0.623);
     width: 500px;
+    height: 650px;
     margin-top: 5px;
-    margin-bottom: 30px;
+    margin-bottom: 50px;
     position: absolute;
     top: 400px;
     left: 35%;
@@ -103,20 +104,40 @@ label{
        
 }
 
-.buttonform{
-    font-size: 20px;
-    margin-top: 20px;
+.registrationContainer button{
     width: 100%;
-    font-size: larger;
-    border-radius: 8px;
-    border: 2px solid black;
-    font-weight: bold;
+    color: #fff;
+    margin-top: 20px;
+  background-color: #333;
+  border: 1px solid #000;
+  border-radius: 5px;
+  font-size: 16px;
+  font-weight: bold;
+  padding: 10px 20px;
+  cursor: pointer;
+  transition: all 0.5s ease-in-out;
+}
+
+.registrationContainer button:hover {
+    background-color: #666;
+}
+
+.registrationContainer button:focus{
+    outline: none;
+}
+
+.registrationContainer button:active{
+    transform: scale(0.9);
+}
+
+.registrationContainer button:disabled {
+    opacity: 0.5;
 }
 
 /*footer*/
 
 footer {
-    margin-top: 50%;
+    margin-top: 60%;
     display: flex;
     flex-wrap: wrap;
     background-color: #333;

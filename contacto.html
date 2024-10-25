@@ -27,53 +27,66 @@
             <li><a href="contacto.html">Contactanos</a></li>
         </ul>
     </nav>
-        <div class="containerMenuDos">
-           <div id="circulares">
-            <h2>Circulares</h2>
-            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quidem repellendus placeat iusto enim magnam fugit ullam, aliquid corporis quae? Omnis!</p>
-            <button type="submit">Ir al Sitio</button>
-           </div>
-           <div id="proyectos">
-            <h2>Proyectos</h2>
-            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Distinctio error, non minima nam fugiat et dolores quasi voluptate deleniti incidunt.</p>
-            <button type="submit">Ir al Sitio</button>
-           </div>
-           <div id="cronograma">
-                <h2>Cronograma</h2>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Vero molestiae inventore incidunt voluptates eius facilis ullam ad praesentium, nostrum velit!</p>
-                <button type="submit">Ir al Sitio</button>
-           </div>
-           <div id="certificados">
-            <h2>certificados</h2>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Exercitationem, iure ipsam delectus commodi architecto autem voluptas expedita ex esse aliquam?</p>
-            <button type="submit">Ir al Sitio</button>
-           </div>
-           <div id="cafeteria">
-            <h2>Cafeteria</h2>
-            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ex similique nobis voluptatibus, soluta asperiores possimus adipisci aliquam accusamus corporis illum!</p>
-            <button type="submit">Ir al Sitio</button>
-           </div>
-        </div>
 
-    <!--footer-->
+    <table class="tablaDeDatos" border="3">
+        
+      <thead>
+          <tr>
+              <th scope="col">Nombre</th>
+              <th scope="col">E-mail</th>
+              <th scope="col">Teléfono</th>
+              <th scope="col">mensaje</th>
+      
 
-    <footer class="footer">
-        <div class="footer-contenido">
-          <p>Dirección:<br> 81 # 73 F - 54 SUR BOSA </p>
-          <p>Teléfono:7760939</p>
-        </div>
-        <div class="iconsRedes">
-            <p id="redes">Síguenos en:</p>
-            <button id="menuRedes"><img id="icons" src="img/icons8-facebook-100.png" alt=""><a href="https://www.facebook.com/p/COLEGIO-NUEVA-COLOMBIA-GRANDE-100068294022764/?locale=es_LA" target="_blank"></a></button>
-            <button id="menuRedes"><img id="icons" src="img/icons8-instagram-100.png" alt=""><a href="(link unavailable)" target="_blank"></a></button>
-            <button id="menuRedes"><img id="icons"src="img/icons8-youtube-100.png" alt=""><a href="(link unavailable)" target="_blank"></a></button>
-            <button id="menuRedes"><img id="icons" src="img/icons8-whatsapp-100.png" alt=""><a href="(link unavailable)" target="_blank"></a></button>
-        </div>
-        <div class="footer-derechos">
-          <p>&copy; 2024 Todos los derechos reservados</p>
-        </div>
-      </footer>
+          </tr>
+      </thead>
+      <tbody id="capturDato">
+          <tr>
+              <td scope="row"></td>
+              <td scope="row"></td>
+              <td scope="row"></td>
+              <td scope="row"></td>
+          </tr>
+         
+      </tbody>
+      
+  </table>
+        
+    <section class="contactContainer">
+      <h1>Contactanos</h1>
+      <div class="form">
+        <label for="name" id="nombre">Nombre</label>
+        <input type="text" placeholder="Nombre y apellido" id="name" required>
+        <label for="email" id="correo">E-mail</label>
+        <input type="text" placeholder="Ej: sucorreo@ejemplo.com" id="email" required>
+        <label for="phone" id="tel">Telefono</label>
+        <input type="tel" placeholder="maximo 10 digitos" id="phone" required>
+        <label for="message" id="mensaje">Mensaje:</label>
+        <textarea id="message" name="message" rows="5" required itemid="message"></textarea>
+        <button class="buttonForm" type="submit" onclick="enviarMensaje()">Enviar Solicitud</button>
+      </div>
 
+    </section>
+
+  <!--footer-->
+
+  <footer class="footer">
+    <div class="footer-contenido">
+      <p>Dirección:<br> 81 # 73 F - 54 SUR BOSA </p>
+      <p>Teléfono:7760939</p>
+    </div>
+    <div class="iconsRedes">
+        <p id="redes">Síguenos en:</p>
+        <a href="https://www.facebook.com/p/COLEGIO-NUEVA-COLOMBIA-GRANDE-100068294022764/?locale=es_LA" target="_blank"><img id="icons" src="img/icons8-facebook-100.png" alt=""></a>
+        <a href="(link unavailable)" target="_blank"><img id="icons" src="img/icons8-instagram-100.png" alt=""></a>
+        <a href="(link unavailable)" target="_blank"><img id="icons"src="img/icons8-youtube-100.png" alt=""></a>
+       <a href="(link unavailable)" target="_blank"> <img id="icons" src="img/icons8-whatsapp-100.png" alt="" ></a>
+    </div>
+    <div class="footer-derechos">
+      <p>&copy; 2024 Todos los derechos reservados</p>
+    </div>
+  </footer>
+<script src="contactanos.js"></script>
 </body>
 
 </html>

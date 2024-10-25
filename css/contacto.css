@@ -8,6 +8,8 @@
 }
 
 body {
+
+  background-image: linear-gradient(rgb(109, 184, 109),rgb(3, 3, 56));
     margin: 0;
 }
  video {
@@ -63,61 +65,87 @@ ul li {
   background-color:  rgb(5, 4, 49);
 }
 
-.containerMenuDos{
+/* formulario de contacto */
+
+.contactContainer{
+  border-radius: 15px;
   display: flex;
-  
-  background-color: #333;
-  margin: 100px;
-  padding: 20px;
-}
-#circulares{
   flex-wrap: wrap;
-  background-color: aqua;
-  color: aliceblue;
-  font-size: larger;
-  padding: 20px;
-  height: 350px;
-
+  background-image:linear-gradient(to bottom, rgba(5, 5, 100, 0.411), rgba(0, 128, 0, 0.664));
+  width: 50%;
+  height: 700px;
+  margin: 50px;
+  margin-left: 27%;
+  padding: 30px;
+  justify-content: center;
 }
-#proyectos{
-  flex-wrap: wrap;
-  background-color: aqua;
-  color: aliceblue;
-  font-size: larger;
-  padding: 20px;
-  height: 350px;
-  margin-left: 20px;
+.contactContainer h1{
+  font-size: 50px;
+  color: white;
+  font-weight: bold;
+  font-family: "calibri";
+}
+.form{
+  margin: 20px;
+  width: 500px;
 }
 
-#cronograma{
-  flex-wrap: wrap;
-  background-color: aqua;
-  color: aliceblue;
-  font-size: larger;
-  padding: 20px;
-  height: 350px;
-  margin-left: 20px;
+input{
+  display: inline-block;
+  width: 100%;
+  font-size: 20px;
+  border-radius: 5px;
+  font-family: "calibri";
+  margin: 15px;
 }
 
-#certificados{
-  flex-wrap: wrap;
-  background-color: aqua;
-  color: aliceblue;
-  font-size: larger;
-  padding: 20px;
-  height: 350px;
-  margin-left: 20px;
-  }
-
-#cafeteria{
-  flex-wrap: wrap;
-  background-color: aqua;
-  color: aliceblue;
-  font-size: larger;
-  padding: 20px;
-  height: 350px;
-  margin-left: 20px;
+#submt{
+  border: none;
+  border-radius: 8px ;
+  height: 50px;
+  font-size: 40px;
 }
+
+label{
+  display:inline-block;
+  font-family: "calibri";
+  font-size: 25px;
+  font-weight: bold;
+  color: white;
+  margin: 15px;
+}
+
+
+.contactContainer button {
+  width: 100%;
+  color: #fff;
+  margin-top: 20px;
+background-color: #013b04;
+border: 1px solid #000;
+border-radius: 5px;
+font-size: 16px;
+font-weight: bold;
+padding: 10px 20px;
+cursor: pointer;
+transition: all 0.5s ease-in-out;
+}
+
+.contactContainer button:hover {
+  background-color: #17791f;
+}
+
+.contactContainer button:focus{
+  outline: none;
+}
+
+.contactContainer button:active{
+  transform: scale(0.9);
+}
+
+.contactContainer button:disabled {
+  opacity: 0.5;
+}
+
 
 /*footer*/
 

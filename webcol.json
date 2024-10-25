@@ -1,0 +1,35 @@
+{
+    "login":[
+        {
+            "nombreDelEstudiante":"Juan Bernal Osorio",
+            "clave":1234
+        },
+        {
+            "nombreDel Docente": "Lorenzo Guáqueta Martínez",
+            "clave":1234
+        }
+    ],
+    "certificadosEstudiantiles":{
+        "nombreDelAcudiente":"fernando Bernal",
+        "documentoDelAcudiente": 123456789,
+        "correoElectronico": "ferbernal@gmail.com",
+        "numeroDeContacto": "3209876543",
+        "nombreDelEstudiante":"Juan Bernal Osorio",
+        "documentoDelEstudiante":861031527409,
+        "gradoEnElQueCursa": 4
+    },
+
+    "formularioDeInscripcion":{
+        "NombreDelAcudiete":"nombre del acudiente",
+        "direccion": 123456,
+        "telefono": 3209876543,
+        "correoElectronico": "estudiantenuevi@gmail.com",
+        "nombreDelEstudiante":"nombre del estudiante",
+        "EdadDelEstudiante": 8,
+        "ultimoGradoCursado": 5,
+        "nombreDelUltimoColegio":"colegio German Arciniegas",
+        "gradoAlQueIngresa":5
+
+    }
+
+}
